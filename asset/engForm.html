@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/css/responsive.css">
+    <title>English Form</title>
+    <link rel="shortcut icon" href="/asset/img/fav-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <main class="text-center pt-4">
+        <h2>English</h2>
+
+        <div class="form-div">
+            <form method="post" action="">
+                <div class="patient-info m-auto mt-5 mb-4">
+                    
+                        <input class="form-control rounded-0" id="name" type="text" name="Name" placeholder="FULL NAME" required>
+                        <input class="form-control rounded-0" id="Phone" type="tel" name="Phone" placeholder="PHONE NUMBER" required>
+                        <input class="form-control rounded-0" id="email" type="email" name="Email" placeholder="EMAIL">
+                        <input class="form-control rounded-0" id="profession" type="text" name="Profession" placeholder="PROFESSION">
+                        <input class="form-control rounded-0" id="date" type="date" name="Date" placeholder="DATE">
+                        <input class="form-control rounded-0" id="age" type="number" name="Age" placeholder="AGE">
+                        <input class="form-control rounded-0" id="id-no" type="number" name="IdNo" placeholder="ID NO">
+                        <input class="form-control rounded-0" id="height" type="text" name="Height" placeholder="HEIGHT">
+                        <input class="form-control rounded-0" id="weight" type="text" name="Weight" placeholder="WEIGHT">
+                        <textarea class="form-control rounded-0" name="address" id="address" cols="80" rows="3" placeholder="ADDRESS"></textarea>
+                        <textarea class="form-control rounded-0" name="Patient-Description" id="patient-des" cols="80" rows="3" placeholder="DESCRIPTION OF PATIENT"></textarea>
+                        <textarea class="form-control rounded-0" name="Recent-Medicine" id="recent-medicine" cols="80" rows="2" placeholder="RECENT MEDICINE"></textarea>
+                        <select class="form-select rounded-0" id="select-gender" name="Gender" aria-label="Default select example">
+                            <option selected>SELECT GENDER</option>
+                            <option value="male">MALE</option>
+                            <option value="female">FEMALE</option>
+                        </select>
+                </div>
+
+                <div id="diseases-field">   
+                    <div id="disease-discussion-id" class="disease-discussion m-auto mb-2">
+                        <div class="mind-mentality mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">1. Mind and mentality</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea class="form-control rounded-0 mb-2" rows="1" type="text" name="Mind-Mentality-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Mind-Mentality-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Brain-Nerves-Emotions mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">2. Brain, Nerves and Emotions</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Brain-Nerves-Emotions-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Brain-Nerves-Emotions-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Skin-nature-skin-disorders mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">3. Skin nature and skin disorders</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Skin-nature-skin-disorders-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Skin-nature-skin-disorders-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Nature-sweat-location-sweat mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">4. Nature of sweat and location of sweat</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Nature-sweat-location-sweat-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Nature-sweat-location-sweat-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Eyes-vision mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">5. Eyes and vision</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Eyes-vision-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Eyes-vision-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Ear-hearing mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">6. Ear and hearing</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Ear-hearing-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Ear-hearing-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+                        <div class="Nose-smell mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">7. Nose and smell</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Nose-smell-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Nose-smell-Left" placeholder="Left Side"></textarea>
+                        </div>
+
+                        <div class="Velvet-lips mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">8. Velvet and lips</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Velvet-lips-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Velvet-lips-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Teeth-jaws mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">9. Teeth and jaws</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Teeth-jaws-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Teeth-jaws-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Tongue-taste-oral-cavity mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">10. Tongue taste and oral cavity</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Tongue-taste-oral-cavity-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Tongue-taste-oral-cavity-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Tonsil-tone-larynx mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">11. Tonsil tone and larynx</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Tonsil-tone-larynx-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Tonsil-tone-larynx-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Neck-throat-lymph-glands mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">12. Neck, throat lymph and glands</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Neck-throat-lymph-glands-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Neck-throat-lymph-glands-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Neck-shoulder-back mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">13. Neck, shoulder and back</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Neck-shoulder-back-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Neck-shoulder-back-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Lungs-breath-cough-phlegm mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">14. Lungs, breath, cough and phlegm</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Lungs-breath-cough-phlegm-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Lungs-breath-cough-phlegm-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Chest-breast mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">15. Chest, breast and nipples</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Chest-breast-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Chest-breast-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Cardiovascular-functional-impairment mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">16. Cardiovascular and functional impairment</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Cardiovascular-functional-impairment-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Cardiovascular-functional-impairment-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Blood-vessels-veins-arteries mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">17. Blood vessels veins and arteries</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Blood-vessels-veins-arteries-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Blood-vessels-veins-arteries-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Liver-gallbladder-ducts mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">18. Liver, gallbladder and ducts</p>
+                                <audio id="label-audio" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Liver-gallbladder-ducts-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Liver-gallbladder-ducts-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Pancreatic-rasa-action-disorders mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">19. Pancreas, juice and action disorders</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Pancreatic-rasa-action-disorders-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Pancreatic-rasa-action-disorders-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Spleen-lymph-glands-plasma mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">20. Spleen, lymph glands and plasma</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Spleen-lymph-glands-plasma-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Spleen-lymph-glands-plasma-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Esophagus-stomach mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">21. Esophagus, stomach</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Esophagus-stomach-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Esophagus-stomach-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Abdomen-intestine mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">22. Abdomen, small intestine and large intestine</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Abdomen-intestine-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Abdomen-intestine-Left" placeholder="Left Side"></textarea>
+                        </div>
+                    
+                        <div class="Rectal-rectal mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">23. Rectal and rectal</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Rectal-rectal-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Rectal-rectal-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="stool-nature mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">24. Stool and nature</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="stool-nature-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="stool-nature-Left" placeholder="Left Side"></textarea>
+                        </div>
+                        
+        
+                        <div class="Adrenal-gland-duct mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">25. Adrenal gland tree and duct</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Adrenal-gland-duct-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Adrenal-gland-duct-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Urinary-bladder-duct-prostate-gland mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">26. Urinary bladder, duct prostate gland</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Urinary-bladder-duct-prostate-gland-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Urinary-bladder-duct-prostate-gland-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Urine-nature mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">27. Urine and nature</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Urine-nature-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Urine-nature-Left" placeholder="Left Side"></textarea>
+                        </div>
+                    </div>
+                    <div style="background-color: rgb(207, 207, 248);" id="male-diseases" class="disease-discussion m-auto mt-4 mb-5">
+                        <div id="male-diseases" class="Penis-sexuality mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">28. Penis and sexuality</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Penis-sexuality-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Penis-sexuality-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div id="male-diseases" class="Sperm-duct mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">29. Sperm, duct/sac and sperm</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Sperm-duct-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Sperm-duct-Left" placeholder="Left Side"></textarea>
+                        </div>
+                    </div>
+                    <div style="background-color: pink;" id="female-diseases" class="disease-discussion m-auto mt-4 mb-5">
+                        <div id="female-diseases" class="Female-vaginal-uterin mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">30. Female vaginal uterine sex</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Female-vaginal-uterin-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Female-vaginal-uterin-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div id="female-diseases" class="Ovaries-ducts-periods mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">31. Ovaries, ducts, menstrual periods</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Ovaries-ducts-periods-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Ovaries-ducts-periods-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div id="female-diseases" class="Pregnancy-problems mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">32. Pregnancy, abortion and pregnancy problems</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Pregnancy-problems-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Pregnancy-problems-Left" placeholder="Left Side"></textarea>
+                        </div>
+                    </div>
+                    <div id="disease-discussion-id" class="disease-discussion m-auto mt-4 mb-5">
+                        <div class="Hand-joints-skeleton mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">33. Hand joints, fingers and thoracic skeleton</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Hand-joints-skeleton-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Hand-joints-skeleton-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Spine-fingers mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">34. Spine, waist, joints and fingers</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Spine-fingers-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Spine-fingers-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Muscle-dysfunction mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">35. Muscle spasms and dysfunction</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Muscle-dysfunction-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Muscle-dysfunction-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Food-drink-intolerable mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">36. Food, drink, tastes, dislikes, intolerable</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Food-drink-intolerable-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Food-drink-intolerable-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Sleep-dreams-fears mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">37. Sleep, posturing, dreams and fears</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Sleep-dreams-fears-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Sleep-dreams-fears-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Congenital-postnatal-problems mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">38. Congenital and postnatal problems</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Congenital-postnatal-problems-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Congenital-postnatal-problems-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Hereditary-maternal-paternal mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">39. Hereditary diseases are maternal and paternal</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Hereditary-maternal-paternal-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Hereditary-maternal-paternal-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Disease-transmission-origin mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">40. Disease transmission and origin</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Disease-transmission-origin-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Disease-transmission-origin-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Reduction-diseases mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">41. Disease transmission and origin</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Reduction-diseases-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Reduction-diseases-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+                        <div class="Pathological-reports mb-3">
+                            <label for="" class="discus-label d-flex align-items-center mb-3">
+                                <p class="mb-0 pe-3">42. Pathological signs and reports</p>
+                                <audio id="label-audio" controlsList="nodownload noremoteplayback" controls>
+                                    <source src="/asset/img/demo-audio.mp3" id="audioSource">
+                                </audio>
+                            </label>
+                            <textarea rows="1" class="form-control rounded-0 mb-2" type="text" name="Pathological-reports-Right" placeholder="Right Side"></textarea>
+                            <textarea rows="1" class="form-control rounded-0" type="text" name="Pathological-reports-Left" placeholder="Left Side"></textarea>
+                        </div>
+    
+
+                    </div>
+                </div>
+                <input class="submit-btn mb-4" type="submit">
+            </form>
+        </div>
+
+
+        <a href="/index.html">
+            <button class="btn btn-outline-primary mb-5">Back to Home Page</button>
+        </a>
+    </main>
+
+
+
+    <script src="/asset/js/bootstrap.bundle.min.js"></script>
+    <script src="/asset/js/script.js"></script>
+</body>
+</html>

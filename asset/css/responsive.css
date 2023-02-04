@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1000px) {
+    .patient-info {
+        grid-template-columns: repeat(2, 1fr);
+       }
+    .disease-discussion{
+        grid-template-columns: repeat(2, 1fr);    
+    }
+  }
+@media only screen and (max-width: 800px) {
+    .patient-info {
+        grid-template-columns: repeat(2, 1fr);
+       }
+    .disease-discussion{
+        grid-template-columns: repeat(1, 1fr);    
+    }
+  }
+@media only screen and (max-width: 480px) {
+    #label-audio {
+        width: 93px;
+        height: 31px;
+    }
+    .patient-info {
+        grid-template-columns: repeat(1, 1fr);
+       }
+    .disease-discussion{
+        grid-template-columns: repeat(1, 1fr);    
+        font-size: 13px;
+    }
+  }
